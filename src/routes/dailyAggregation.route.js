@@ -3,6 +3,6 @@ const aggregationController = require('../controllers/aggregationController');
 
 const router = express.Router();
 
-router.get('/calculate-aggregation', aggregationController.calculateAndLogAggregation);
+router.get('/generate-daily-report', aggregationController.generateDailyReport);
 
 module.exports = router;
